@@ -65,7 +65,7 @@ var (
 var RootCmd = &cobra.Command{
 	Use:   "nanny",
 	Short: "Nanny is a monitor that alerts when your other programs stop breathing",
-	Long: `Nanny runs a API, that expects HTTP POST from your program in periodic
+	Long: `Nanny runs an API, that expects HTTP POST from your program in periodic
 intervals. If your program does not call nanny in expected interval, it
 notifies you.`,
 	Run: run,
